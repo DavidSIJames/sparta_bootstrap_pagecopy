@@ -1,0 +1,120 @@
+.img-class {
+  height:600px;
+  width:100%;
+}
+
+.pic1 {
+  margin-top: 100px;
+}
+
+.pic2 {
+  margin-top:30px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: s#24303A;
+  padding: 0px;
+  margin-top: 20px;
+}
+.grid-item {
+  background-color: #24303A;
+  border: 1px solid #FFF;
+  padding: 40px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+
+form div {
+  margin: 10px;
+}
+
+.form-input {
+  border:0;
+  border margin:0;
+  border-bottom: 2px solid #FFF;
+  background-color: #430167;
+}
+::placeholder{
+  color:#C8A8D9;
+}
+.btn-custom-send {
+  background-color: #430167;
+    border: 3px solid #FFF;
+    color: #FFF;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px 40px;
+    margin-top: 30px;
+}
+.fa-twitter {
+  font-size:60px;
+  color:blue;
+}
+
+.btn-custom {
+
+}
+.navbar-custom {
+  background-color: #810AC2;
+}
+.navbar-brand {
+  color:#FFF;
+}
+
+.nav a {
+  color:#FFF;
+}
+
+footer {
+  background-color: #810AC2;
+  color:#fff;
+}
+
+section {
+  background-color: #C8A8D9;
+}
+ .try {
+  margin-top: -80px;
+}
+.container_1{
+  background-color: rgb(238,238,238,0.6);
+  padding:20px 50px;
+}
+.container_1 h1 {
+  color:#430167;
+}
+
+.container_2{
+  color:#430167;
+}
+.container_3{
+  background-color: #430167;
+  color:#FFF;
+}
+.container_3 a{
+  color: #C8A8D9;
+}
+
+.section_1{
+  padding-bottom: 40px;
+}
+.logo{
+  width:50px;
+  margin-top: -14px;
+  margin-left: -15px;
+}
+.footer_logo{
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+.footer_image{
+  padding-bottom: 20px;
+}
