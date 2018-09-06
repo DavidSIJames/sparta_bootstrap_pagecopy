@@ -1,16 +1,53 @@
+/* navbar */
+.navbar-custom {
+  background-color: #810AC2;
+}
+.navbar-brand {
+  color:#FFF;
+}
+.logo{
+  width:50px;
+  margin-top: -14px;
+  margin-left: -15px;
+}
+.nav a:hover{
+  color: #810AC2;
+}
+.nav a {
+  color:#FFF;
+}
+/*  image */
 .img-class {
   height:600px;
   width:100%;
 }
-
+/* container 1  */
+section {
+  background-color: #C8A8D9;
+}
+.try {
+  margin-top: -80px;
+}
+.container_1{
+  background-color: rgb(238,238,238,0.6);
+  padding:20px 50px;
+}
+.section_1{
+  padding-bottom: 40px;
+}
 .pic1 {
   margin-top: 100px;
 }
-
 .pic2 {
   margin-top:30px;
 }
-
+.container_1 h1 {
+  color:#430167;
+}
+/* container 2 */
+.container_2{
+  color:#430167;
+}
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -26,11 +63,10 @@
   text-align: center;
   color: white;
 }
-
+/* form */
 form div {
   margin: 10px;
 }
-
 .form-input {
   border:0;
   border margin:0;
@@ -42,79 +78,39 @@ form div {
 }
 .btn-custom-send {
   background-color: #430167;
-    border: 3px solid #FFF;
-    color: #FFF;
-    border-radius: 0;
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    padding: 15px 40px;
-    margin-top: 30px;
+  border: 3px solid #FFF;
+  color: #FFF;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 15px 40px;
+  margin-top: 30px;
 }
-.fa-twitter {
-  font-size:60px;
-  color:blue;
-}
-
-.btn-custom {
-
-}
-.navbar-custom {
-  background-color: #810AC2;
-}
-.navbar-brand {
-  color:#FFF;
-}
-
-.nav a {
-  color:#FFF;
-}
-
-footer {
-  background-color: #810AC2;
-  color:#fff;
-}
-
-section {
-  background-color: #C8A8D9;
-}
- .try {
-  margin-top: -80px;
-}
-.container_1{
-  background-color: rgb(238,238,238,0.6);
-  padding:20px 50px;
-}
-.container_1 h1 {
-  color:#430167;
-}
-
-.container_2{
-  color:#430167;
-}
+/* container 3 */
 .container_3{
   background-color: #430167;
   color:#FFF;
+  padding-bottom: 40px;
 }
 .container_3 a{
   color: #C8A8D9;
 }
-
-.section_1{
-  padding-bottom: 40px;
+/* footer */
+footer {
+  background-color: #810AC2;
+  color:#fff;
+  padding-bottom: 50px;
 }
-.logo{
-  width:50px;
-  margin-top: -14px;
-  margin-left: -15px;
+footer .container a {
+  color:#FFF;
 }
 .footer_logo{
   width: 50px;
   height: 50px;
   margin-left: 20px;
 }
-
 .footer_image{
   padding-bottom: 20px;
 }
